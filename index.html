@@ -27,6 +27,13 @@
 
 		<script src="js/lib/jquery.js"></script>
 
+		<script>
+			document.addEventListener("deviceready", onDeviceReady, false);
+		    function onDeviceReady() {
+		        console.log("navigator.geolocation works well");
+		    }
+		</script>
+
 
 		<!-- Materialize Imports -->
 		<!--Import Google Icon Font-->

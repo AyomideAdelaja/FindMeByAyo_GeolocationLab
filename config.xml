@@ -6,7 +6,7 @@
     <name>FindMe by Ayo</name>
 
     <description>
-        This is an app using GoogleMaps API
+        This is an app using GoogleMaps API to find where you are
     </description>
 
     <author href="http://npontu.com.com" email="luizadelaja@gmail.com">AYOMIDE ADELAJA</author>
@@ -38,7 +38,7 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-geolocation" source="npm" />
 
     <!-- Define app icon for each platform. -->
     <icon src="images/logo_full.png" />
